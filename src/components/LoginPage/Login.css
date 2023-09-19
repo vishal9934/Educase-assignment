@@ -1,0 +1,35 @@
+.loginPage {
+  text-align: center;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.para {
+  margin-left: -2rem;
+}
+
+/* code for Mobile Screen */
+@media (max-width: 480px) {
+  .btn {
+    margin-top: 2.5rem;
+  }
+  .para {
+    margin-left: 1px;
+  }
+  .head {
+    margin-right: -2rem;
+  }
+}
+
+@media (max-width: 330px) {
+  input {
+    width: 280px;
+  }
+  .btn {
+    padding: 8px 10px;
+  }
+}

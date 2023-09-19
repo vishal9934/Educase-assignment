@@ -1,0 +1,53 @@
+.landing {
+  text-align: center;
+  margin-top: 15rem;
+}
+.blue {
+  margin-top: 8px;
+  background-color: #6c25ff;
+  /* font-size: 1rem; */
+  padding: 10px 90px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+.grey {
+  margin-top: 10px;
+  background-color: #cebafb;
+  /* font-size: 1rem; */
+  padding: 10px 60px;
+  border-radius: 5px;
+  outline: none;
+  color: #474559;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+p {
+  color: #a6a8ab;
+  padding-right: 90px;
+}
+h1 {
+  padding-right: 55px;
+}
+
+/* code for Mobile Screeen */
+
+@media (max-width: 480px) {
+  h1 {
+    padding-right: 70px;
+  }
+  p {
+    padding-right: 120px;
+  }
+  .landing {
+    margin-top: 35rem;
+  }
+  .blue {
+    padding: 12px 110px;
+  }
+  .grey {
+    padding: 12px 81px;
+  }
+}

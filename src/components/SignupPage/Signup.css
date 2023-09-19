@@ -1,0 +1,77 @@
+.signup{
+    text-align: center;
+}
+.flex{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+::placeholder{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+label{
+    color: #6F4DB8;
+    margin-right: 13rem;
+}
+.asterisk{
+    color: red;
+}
+input{
+    /* padding: 5px 80px; */
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+    
+button{
+    background-color: #6C25FF;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding: 9px 115px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.login{
+    cursor: pointer;
+    color: grey;
+}
+h3{
+    margin-right: 9rem;
+}
+
+/* code for Mobile Screen */
+@media (max-width: 480px) {
+    button{
+        margin-top: 15rem;
+    }
+    input{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 330px) {
+    input{
+        width: 250px;
+       
+    }
+    label{
+        margin-left:9px;
+        
+    }
+    h3{
+        margin-left:10px;
+    }
+  .yes{
+    padding: 15px;
+  }
+  .no{
+    padding: 15px;
+  }
+
+}

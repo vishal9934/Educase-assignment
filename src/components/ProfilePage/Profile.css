@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.account {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+img {
+  width: 120px;
+  height: 110px;
+}
+body {
+  background-color: #e6e7e8;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.detail {
+  margin-top: 30px;
+}
+.par {
+  color: black;
+  margin-left: 20px;
+}
+
+/* code for Mobile Screen */
+@media (max-width: 480px) {
+  .par {
+    margin-left: 50px;
+  }
+}
